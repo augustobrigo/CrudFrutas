@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FrutaComponent } from './fruta/fruta.component';
-import { HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
-    AppComponent,
-    FrutaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,HttpClientModule, FormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
